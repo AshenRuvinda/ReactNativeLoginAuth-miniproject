@@ -106,7 +106,7 @@ const LoginScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#192f6a', // Match gradient end color for smooth edges
+    backgroundColor: '#192f6a', 
   },
   container: {
     flex: 1,
