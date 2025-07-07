@@ -5,10 +5,10 @@ const User = require('../models/User');
 
 const router = express.Router();
 
-// Replace this secret with env variable in real apps
+
 const JWT_SECRET = "your_jwt_secret_key";
 
-// Register Route
+
 router.post('/register', async (req, res) => {
   const { name, email, password } = req.body;
   try {
@@ -24,7 +24,7 @@ router.post('/register', async (req, res) => {
   }
 });
 
-// Login Route
+
 router.post('/login', async (req, res) => {
   const { email, password } = req.body;
   try {
