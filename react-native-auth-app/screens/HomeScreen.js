@@ -12,7 +12,7 @@ const HomeScreen = ({ navigation }) => {
       >
         <View style={styles.content}>
           <Ionicons name="home-outline" size={50} color="#fff" style={styles.icon} />
-          <Text style={styles.title}>Welcome to the App!</Text>
+          <Text style={styles.title}>Hello World</Text>
           <Text style={styles.subtitle}>You're successfully logged in</Text>
           <TouchableOpacity
             style={styles.button}
@@ -29,7 +29,7 @@ const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#192f6a',
+    backgroundColor: '#192f6b',
   },
   container: {
     flex: 1,
